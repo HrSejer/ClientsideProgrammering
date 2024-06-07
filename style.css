@@ -229,6 +229,15 @@ body {
     overflow: hidden;
 }
 
+.glowing-circle .image5 {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    z-index: 1;
+    overflow: hidden;
+}
+
 .image2 img {
     position: absolute;
     top: 70px;
@@ -259,6 +268,16 @@ body {
     width: 220px;
 }
 
+.image5 img {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 510px;
+    object-fit: cover;
+    width: 220px;
+}
+
 .watchtext {
     font-size: 36px;
     position: absolute;
@@ -275,6 +294,7 @@ body {
     padding-top: 20%;
     padding-left: 35%;
     padding-right: 5%;
+    animation: slideLeft 1s ease forwards;
 }
 
 /*ANIMATIONER*/
